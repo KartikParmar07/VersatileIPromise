@@ -212,6 +212,7 @@ a:hover { text-decoration: none; }
   margin-bottom: 20px;
   -webkit-transition: all 0.4s ease-in-out;
           transition: all 0.4s ease-in-out;
+          border-left: 4px solid #FE9715;
 }
 .tm-icons a {
   border: 2px solid #FE9715;
@@ -574,7 +575,7 @@ footer hr { width: 80px; }
   .tm-icons .tm-icon-1,
   .tm-icons .tm-icon-2,
   .tm-icons .tm-icon-3 {
-	  border-left: 4px solid #a4c639;
+	  border-left: 4px solid #FE9715;
 	  margin: 15px;
   }
   .tm-icons .tm-icon-1 {
