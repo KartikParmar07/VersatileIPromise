@@ -74,7 +74,7 @@ jQuery(document).ready(function($){
         changeHash: true
     }); 
 
-    /* NAVIGATION VISIBLE ON SCROLL */
+    /* NAVIGATION VISIBLE ON SCROLL 
     mainNav();
     $(window).scroll(function () {
         mainNav();
@@ -91,7 +91,7 @@ jQuery(document).ready(function($){
             "top": '-75'
         });
     }
-
+*/
 
 // HIDE MOBILE MENU AFTER CLIKING ON A LINK
     $('.navbar-collapse a').click(function(){
