@@ -82,7 +82,7 @@ jQuery(document).ready(function($){
 
     function mainNav() {
         var top = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
-        if (top = 0) $('.sticky-navigation').stop().animate({
+        if (top > 0) $('.sticky-navigation').stop().animate({
             "opacity": '1',
             "top": '0'
         });
