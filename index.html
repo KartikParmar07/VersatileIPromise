@@ -1,3 +1,22 @@
+
+<?php
+
+
+if($_POST["sendmsg"]) {
+
+
+name = $_POST['name']);
+email = $_POST['email']);
+contact = $_POST['contact']);
+message = $_POST['message']);
+
+
+
+}
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -59,7 +78,7 @@ https://templatemo.com/tm-465-alpha
 <section id="home" class="tm-home">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 col-sm-12">
+			<div class="col-md-12 col-sm-12" style="padding-top:50px;">
 				<h2 class="wow fadeInUp tm-home-header" data-wow-delay="1.9s"></h2>
             	<h1 class="wow fadeIn tm-home-logo" data-wow-delay="1.3s"><span style="text-transform: lowercase;">i</span>Promise</h1>
 				<h2 class="wow fadeIn tm-home-header" data-wow-delay="1.6s">MASTERS OF EFFECTIVE COMMUNICATION</h2>
@@ -380,19 +399,19 @@ https://templatemo.com/tm-465-alpha
 				</div>		
 			</div>	
 			<div class="col-md-8 col-sm-7 contact-form wow fadeInRight" data-wow-delay="0.9s">
-				<form action="#" method="post" role="form">
+				<form action="index.php" method="post" role="form">
 					<div class="col-md-6 col-sm-6">
-						<input class="form-control" type="text" placeholder="Your Name">
+						<input class="form-control" type="text" placeholder="Your Name" name="name">
 					</div>
 					<div class="col-md-6 col-sm-6">
-						<input class="form-control" type="email" placeholder="Your Email">
+						<input class="form-control" type="email" placeholder="Your Email" name="email">
 					</div>
 					<div class="col-md-12 col-sm-12">
 						<input class="form-control" type="text" placeholder="Your Subject">
-						<textarea class="form-control" placeholder="Your Message" rows="6"></textarea>
+						<textarea class="form-control" placeholder="Your Message" rows="6" name="message"></textarea>
 					</div>
 					<div class="col-md-offset-6 col-md-6 col-sm-12">
-						<input class="form-control" type="submit" value="SHOOT MESSAGE">
+						<input class="form-control" type="submit" value="SHOOT MESSAGE" name="sendmsg">
 					</div>
 				</form>
 			</div>
